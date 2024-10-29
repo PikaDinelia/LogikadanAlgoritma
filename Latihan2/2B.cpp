@@ -18,8 +18,8 @@ main() {
 	cout <<"Masukan jari-jari Lingkaran = "; cin>>r;
 	LuasLingkaran =3.14*r*r;
 	cout<<"Luas Lingkaran = "<<LuasLingkaran;
-	hasil =LuasPersegiPanjang-LuasLingkaran;
+	hasil =LuasPersegiPanjang;
 	cout<<"\n";
-	cout<<"Luas yang tidak diarsir = "<<hasil;
+	cout<<"Luas yang tidak diarsir (persegi panjang) = "<<hasil;
 	getch();
 }
