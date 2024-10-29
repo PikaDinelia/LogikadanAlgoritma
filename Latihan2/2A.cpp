@@ -10,16 +10,16 @@ main() {
 	
 	cout <<"===program menentukan luas daerah tidak diarsir===";
 	cout<<"\n\n";
+	cout <<"Masukan sisi persegi = "; cin>>s;
+	LuasPersegi =s*s;
+	cout<<"Luas persegi = "<<LuasPersegi;
+	cout<<"\n";
 	cout <<"Masukan alas segitiga = "; cin>>a;
 	cout <<"Masukan tinggi segitiga = "; cin>>t;
 	LuasSegitiga =0.5*a*t;
 	cout<<"Luas segitiga = "<<LuasSegitiga;
-	cout<<"\n";
-	cout <<"Masukan sisi persegi = "; cin>>s;
-	LuasPersegi =s*s;
-	cout<<"Luas persegi = "<<LuasPersegi;
 	hasil =LuasPersegi-LuasSegitiga;
 	cout<<"\n";
-	cout<<"Luas yang tidak diarsir = "<<hasil;
+	cout<<"Luas yang tidak diarsir (persegi) = "<<hasil;
 	getch();
 }
