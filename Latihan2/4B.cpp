@@ -19,6 +19,6 @@ main() {
 	cout<<"Luas Lingkaran = "<<LuasLingkaran;
 	hasil =LuasPersegi-LuasLingkaran;
 	cout<<"\n";
-	cout<<"Luas yang diarsir = "<<hasil;
+	cout<<"Luas yang diarsir (persegi) = "<<hasil;
 	getch();
 }
